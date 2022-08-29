@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/phoneDetailsTextView2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:text="مظهر جديد بقوة النوت جدير تعرف على هاتف Galaxy S22 Ultra الذي يمتاز بقوة النوت. فهذا الهاتف يجمع بين النحافة والجرأة والإطار المصقول الذي يحيط به ليبرز تجانسه وأناقته. والكاميرا المسطحة التي تمتاز بالعدسات العاكسة لتبدو وكأنها في الهواء,معالج 4NM يقدم أروع قوة عالمية في كل جانب من جوانب الهاتف، لينتج عن لقطات ليلية مبهرة، وصور مذهلة طوال الليل والنهار وتجربة لعب محسنة عبر الهاتف المتحرك تقودك إلى النصر.بفضل المستشعرات ذات البكسلات الضخمة، والبكسلات shape-shifting، يمتاز هذا الهاتف بأكثر الكاميرات الاحترافية تطوراً، حيث قوة التصوير الاحترافي في جهاز محمول. هكذا يمكنك التقاط صور الليالي الساحرة بنفس الجودة الباهرة.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/phoneNameTextView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Samsung Galaxy S22 Ultra"
+        android:textColor="#0055FF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/phoneDetailsTextView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ImageView
+        android:id="@+id/phoneImageView2"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/p1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

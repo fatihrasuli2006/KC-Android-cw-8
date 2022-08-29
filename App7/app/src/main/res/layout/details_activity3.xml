@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/phoneDetailsTextView2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:text="شريحة فائقة السرعة. عمر بطارية بقفزة نوعية. قدرات جديدة كلياً لإنتاج صور وفيديوهات مذهلة. باختصار، iPhone 13 يتيح لك إنجاز ما لم يكن ممكناً من قبل، وبمقاسين رائعين.أصبحت متاجرنا ومكاتبنا ومراكز البيانات التابعة لنا وعملياتنا بلا أي أثر كربوني. وهكذا ستصبح منتجاتنا وبصمتك الكربونية الناتجة عن استخدامك لها بحلول عام 2030. استغنينا أيضاً هذا العام عن غلاف علب iPhone 13 وiPhone 13 Pro البلاستيكي، ما سمح لنا بتوفير 600 طن متري من البلاستيك.يتميز iPhone بعمر طويل بفضل المواد شديدة المتانة ومقاومة الماء. يحتفظ iPhone بأدائه الفائق وبقيمته لفترة أطول من الهواتف الذكية الأخرى."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/phoneNameTextView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Apple Iphone 13"
+        android:textColor="#0055FF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/phoneDetailsTextView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ImageView
+        android:id="@+id/phoneImageView2"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/p3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
